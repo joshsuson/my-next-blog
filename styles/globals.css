@@ -22,3 +22,28 @@ a {
 .container {
   width: min(90%, 1200px);
 }
+
+.first-custom-hover {
+  background: linear-gradient(#34d399 0 0) bottom / var(--d, 0) 2px no-repeat;
+  transition: 0.3s ease-in-out;
+}
+
+.first-custom-hover:hover {
+  --d: 100%;
+}
+
+.custom-button-hover {
+  transition: 0.3s ease-in-out;
+}
+
+.custom-button-hover:hover {
+  border-radius: 25px;
+}
+
+.green-button-shadow {
+  box-shadow: 0 4px 8px hsla(158, 65%, 52%, 0.4);
+}
+
+.green-button-shadow:hover {
+  box-shadow: 0 4px 16px hsla(158, 65%, 52%, 0.4);
+}
