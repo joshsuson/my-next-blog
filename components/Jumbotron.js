@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Jumbotron() {
   return (
-    <div className="grid grid-cols-2 gap-14 mt-4">
+    <div className="grid grid-cols-2 gap-14 mt-14">
       <div>
         <div className="bg-green-400">
           <div className="relative w-auto h-96 transform -translate-x-3 -translate-y-2">
@@ -13,10 +13,10 @@ export default function Jumbotron() {
       </div>
       <div>
         <div className="w-7/12">
-          <h1 className="text-4xl py-1 px-1 text-white">
+          <h1 className="text-4xl py-1 px-1 text-white relative z-10">
             Hi. Nice to meet you!
           </h1>
-          <div className="bg-green-400 w-auto h-12 relative transform -translate-y-12 -translate-x-2 -skew-x-6"></div>
+          <div className="bg-green-400 w-auto h-12 relative transform -translate-y-12 -translate-x-2 -skew-x-6 "></div>
         </div>
         <p className="text-lg leading-relaxed -mt-4">
           My name is Josh Suson (in case you missed the title). I'm a Front End

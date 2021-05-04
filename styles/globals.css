@@ -25,7 +25,7 @@ a {
 
 .first-custom-hover {
   background: linear-gradient(#34d399 0 0) bottom / var(--d, 0) 2px no-repeat;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .first-custom-hover:hover {
@@ -33,7 +33,7 @@ a {
 }
 
 .custom-button-hover {
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .custom-button-hover:hover {
