@@ -7,7 +7,12 @@ export default function Jumbotron() {
       <div>
         <div className="bg-green-400">
           <div className="relative w-auto h-96 transform -translate-x-3 -translate-y-2">
-            <Image src="/images/075A6510.jpg" layout="fill" objectFit="cover" />
+            <Image
+              priority
+              src="/images/075A6510.jpg"
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
         </div>
       </div>

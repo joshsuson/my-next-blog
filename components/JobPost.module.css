@@ -1,0 +1,3 @@
+.job > h1 {
+  @apply text-5xl text-green-400;
+}
